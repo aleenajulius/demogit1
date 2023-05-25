@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: darkmagenta;
+    margin-left: 200px;
+    margin-top: 300px;
+    /* animation: anim 1s ease-in-out 1s infinite ; */
+    transition: 1s ease-in-out;
+}
+
+div:hover{
+    /* transform: rotate(-44deg); */
+    /* transform: scale(2.08) rotate(45deg); */
+    /* transform: skew(45deg); */
+    transform: translate(-200px);
+}
