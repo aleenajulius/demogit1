@@ -1,7 +1,7 @@
 div{
     height: 100px;
     width: 100px;
-    background-color: darkmagenta;
+    background-color: rgb(11, 1, 11);
     margin-left: 200px;
     margin-top: 300px;
     /* animation: anim 1s ease-in-out 1s infinite ; */
@@ -11,6 +11,6 @@ div{
 div:hover{
     /* transform: rotate(-44deg); */
     /* transform: scale(2.08) rotate(45deg); */
-    /* transform: skew(45deg); */
-    transform: translate(-200px);
+    transform: skew(45deg);
+    /* transform: translate(-200px); */
 }
